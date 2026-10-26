@@ -1,52 +1,92 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Academic Homepage</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 60px auto;
-      padding: 0 20px;
-      line-height: 1.7;
-      color: #333;
-    }
-    h1, h2 { color: #222; }
-    a { color: #1768ac; }
-  </style>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zhichen Zhong (仲之宸) | Academic Homepage</title>
+    <meta name="description" content="Zhichen Zhong (仲之宸), an undergraduate student at ShanghaiTech University majoring in Computer Science and currently a Visiting Undergraduate Student at Harvard University. Research interests include reinforcement learning and diffusion models.">
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/img/favicon-dark.png" type="image/png">
+    <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <!-- Replace this template illustration with your own portrait when ready. -->
+        <div class="image avatar"><img src="./assets/img/avatar.png" alt="Placeholder profile illustration"></div>
+        <h1>Zhichen Zhong <span class="chinese-name" lang="zh-Hans">(仲之宸)</span></h1>
 
-<body>
-  <h1>Your Name</h1>
-  <p>
-    Researcher interested in Reinforcement Learning
-    and Generative Models.
-  </p>
+        <div class="affiliation">
+          <p class="position">Undergraduate Student</p>
+          <p class="institution">ShanghaiTech University</p>
+        </div>
+        <div class="affiliation">
+          <p class="position">Visiting Undergraduate Student</p>
+          <p class="institution">Harvard University</p>
+        </div>
 
-  <p>
-    <a href="https://github.com/">GitHub</a>
-    | <a href="mailto:you@example.com">Email</a>
-  </p>
+        <div class="contact-info" aria-label="Contact emails">
+          <div class="contact-item">
+            <span class="contact-label">ShanghaiTech</span>
+            <a href="mailto:zhongzhch2023@shanghaitech.edu.cn">zhongzhch2023@shanghaitech.edu.cn</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Harvard</span>
+            <a href="mailto:zhichenzhong@college.harvard.edu">zhichenzhong@college.harvard.edu</a>
+          </div>
+        </div>
+      </header>
 
-  <h2>About Me</h2>
-  <p>
-    Welcome to my personal academic website.
-  </p>
+      <section aria-label="Academic profile">
+        <h2 id="about-me">About Me</h2>
+        <p>I am <strong>Zhichen Zhong <span lang="zh-Hans">(仲之宸)</span></strong>, an undergraduate student at <strong>ShanghaiTech University</strong>, majoring in Computer Science. I am currently a Visiting Undergraduate Student at <strong>Harvard University</strong>.</p>
+        <p>My research interests include reinforcement learning and diffusion models.</p>
 
-  <h2>Research Interests</h2>
-  <ul>
-    <li>Reinforcement Learning</li>
-    <li>Diffusion Models</li>
-    <li>Generative Modeling</li>
-  </ul>
+        <h2 id="education">Education</h2>
+        <div class="education-list">
+          <article class="education-entry" aria-labelledby="education-qingdao">
+            <div class="education-heading">
+              <h3 id="education-qingdao">Qingdao No.2 Middle School</h3>
+              <span class="education-dates"><time datetime="2020-09">Sep. 2020</time> &ndash; <time datetime="2023-07">Jul. 2023</time></span>
+            </div>
+            <p class="education-location">Qingdao, Shandong, China</p>
+          </article>
 
-  <h2>Publications</h2>
-  <p>Coming soon.</p>
+          <article class="education-entry" aria-labelledby="education-shanghaitech">
+            <div class="education-heading">
+              <h3 id="education-shanghaitech">ShanghaiTech University</h3>
+              <span class="education-dates"><time datetime="2023-09">Sep. 2023</time> &ndash; Present</span>
+            </div>
+            <p class="education-role">B.Eng. Candidate in Computer Science</p>
+            <p class="education-location">Shanghai, China</p>
+            <p class="education-details"><strong>GPA:</strong> 3.9/4.0<br><strong>Ranking:</strong> 3/170 in major; 4/265 in school</p>
+          </article>
 
-  <h2>Projects</h2>
-  <p>Coming soon.</p>
-</body>
+          <article class="education-entry" aria-labelledby="education-harvard">
+            <div class="education-heading">
+              <h3 id="education-harvard">Harvard University</h3>
+              <span class="education-dates"><time datetime="2026-01">Jan. 2026</time> &ndash; Present</span>
+            </div>
+            <p class="education-role">Visiting Undergraduate Student</p>
+            <p class="education-details"><strong>GPA:</strong> 4.0/4.0</p>
+          </article>
+        </div>
+
+        <h2 id="experiences">Experiences</h2>
+        <!-- Add research, internship, and other experience entries here. -->
+
+        <h2 id="projects">Projects</h2>
+        <!-- Add project entries here. -->
+
+        <h2 id="skills">Skills</h2>
+        <p><strong>Programming Languages:</strong> Python, C, C++, RISC-V Assembly</p>
+        <p><strong>Typesetting:</strong> LaTeX</p>
+
+        <p class="theme-credit"><small>Based on the <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener noreferrer">Minimal Light</a> theme.</small></p>
+      </section>
+    </div>
+    <script src="./assets/js/favicon-switcher.js"></script>
+    <script src="./assets/js/scale.fix.js"></script>
+  </body>
 </html>
